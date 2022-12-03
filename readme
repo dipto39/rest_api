@@ -1,0 +1,11 @@
+* First of all create database 'test'
+* Then create  a table
+CREATE TABLE user(
+    id int AUTO_INCREMENT not null,
+    name varchar(80),
+    email varchar(80),
+    phn int(15),
+    PRIMARY KEY(id))
+
+* Edit 'pdo.php' file for database configuration(if you need);
+* enjoy :)
